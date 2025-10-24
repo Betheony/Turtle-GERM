@@ -22,10 +22,13 @@ const unsigned long LIGHT_OFF_DURATION = 43200000UL; // 12h
 
 // Pin assignments
 const int RELAY_PIN   = 2;   // Relay for Peltier + fans
-const int PUMP_PIN    = 3;   // Pump MOSFET
-const int LED_R_PIN   = 5;
-const int LED_B_PIN   = 6;
-const int LED_W_PIN   = 9;
+const int PUMP_PIN    = 8;   // Pump MOSFET
+
+const int LED_R_PIN = 5;   // Red channel
+const int LED_G_PIN = 6;   // Green channel
+const int LED_B_PIN = 9;   // Blue channel
+const int LED_W_PIN = 10;  // White channel
+
 const int TEMP_SENSOR_PIN = A0;
 const int HUM_SENSOR_PIN  = A1;
 
